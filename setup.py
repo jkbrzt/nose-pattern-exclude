@@ -7,7 +7,7 @@ except ImportError:
 
 setup(
     name="nose-pattern-exclude",
-    version='0.1.1',
+    version='0.1.2',
     author="Jakub Roztocil",
     author_email="jakub@roztocil.name",
     description="Exclude specific files and directories from nosetests runs.",
@@ -23,7 +23,7 @@ setup(
     zip_safe=False,
     entry_points={
         'nose.plugins': [
-            'nose_exclude = nose_pattern_exclude:NosePatternExclude'
+            'nose_pattern_exclude = nose_pattern_exclude:NosePatternExclude'
         ]
     },
     install_requires=['nose'],

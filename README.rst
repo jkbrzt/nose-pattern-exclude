@@ -1,7 +1,7 @@
 ``nose-pattern-exclude``
 ########################
 
-A simple nose plugin that allow for excluding directories and files
+A simple nose plugin that allows for excluding directories and files
 from test discovery by path or glob pattern. Inspired by
 `nose-exclude <https://pypi.python.org/pypi/nose-exclude>`_.
 
