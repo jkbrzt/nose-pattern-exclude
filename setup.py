@@ -7,10 +7,11 @@ except ImportError:
 
 setup(
     name="nose-pattern-exclude",
-    version='0.1.0',
+    version='0.1.1',
     author="Jakub Roztocil",
     author_email="jakub@roztocil.name",
     description="Exclude specific files and directories from nosetests runs.",
+    long_description=open('README.rst').read().strip(),
     license='BSD',
     url="http://github.com/jkbr/nose-pattern-exclude",
     classifiers=[

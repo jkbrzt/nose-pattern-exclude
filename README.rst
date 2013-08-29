@@ -10,7 +10,7 @@ Installation
 ============
 
 
-..code-block:: bash
+.. code-block:: bash
 
     $ pip install nose-pattern-exclude
 
@@ -18,7 +18,7 @@ Installation
 Usage
 =====
 
-..code-block:: bash
+.. code-block:: bash
 
     $ nosetest \
         --exclude-path=./stuff \
