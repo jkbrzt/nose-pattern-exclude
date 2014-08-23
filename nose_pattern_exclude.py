@@ -24,7 +24,7 @@ class NosePatternExclude(Plugin):
             self.enabled = False
             return
         self.enabled = True
-        self.excludes = map(os.path.abspath, options.excludes)
+        self.excludes = list(map(os.path.abspath, options.excludes))
         self.logger = logging.getLogger(
             '%s.%s' % (__name__, type(self).__name__))
         self.logger.info('exclude patterns: %r' % self.excludes)
