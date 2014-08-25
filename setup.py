@@ -7,7 +7,7 @@ except ImportError:
 
 setup(
     name="nose-pattern-exclude",
-    version='0.1.2',
+    version='0.1.3',
     author="Jakub Roztocil",
     author_email="jakub@roztocil.name",
     description="Exclude specific files and directories from nosetests runs.",
@@ -18,6 +18,8 @@ setup(
         "Intended Audience :: Developers",
         "Topic :: Software Development :: Testing",
         "Programming Language :: Python",
+        'Programming Language :: Python :: 2',
+        'Programming Language :: Python :: 3',
     ],
     py_modules=['nose_pattern_exclude'],
     zip_safe=False,
